@@ -1,0 +1,59 @@
+
+
+
+@media screen and (max-width: 830px){
+
+.logo{
+	font-size: 3em;
+	}
+
+.menu-link{
+	font-size: 2em;
+	padding: 10px 5px;
+	margin: 0 3px;
+	}
+
+.searcher{
+	font-size: 1em;
+	padding-left: 10px;
+	width: 14%;
+/*	display: none;*/
+	}
+
+
+
+.face{
+	background-position: 10%;
+}
+}
+
+
+
+
+
+
+@media screen and (max-width: 500px){
+
+.logo{
+	font-size: 1em;
+	}
+
+.menu-link{
+	font-size: 0.9em;
+	padding: 10px 5px;
+	margin: 0 3px;
+	}
+
+.searcher{
+	font-size: 0.6em;
+	padding-left: 10px;
+	width: 14%;
+/*	display: none;*/
+	}
+
+
+
+.face{
+	background-position: 10%;
+}
+}
