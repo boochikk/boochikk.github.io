@@ -1,0 +1,445 @@
+/*
+темно синий ргб(16 109 127 темн синий)
+			ргб(133 111 25 кнопки желт темн)
+
+*/
+
+html{
+  scroll-behavior: smooth;
+  font-family: "Geologica", sans-serif;
+}
+
+
+body{
+
+  color:#FFFFFF;
+
+  margin: 0;
+  font-size: 10px;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+.header{
+
+	background: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+
+
+.header-lg{
+	margin-left: 15px;
+	max-width: 60px;
+}
+
+.logo{
+
+}
+
+.menu{
+	
+}
+
+
+.menu-item{
+	display: inline-block;
+}
+
+
+
+.menu-link{
+	text-decoration: none;
+	font-size: 1.5em;
+	line-height: 2;
+	padding: 0 10px;
+	margin: 0 10px;
+	color: #FFFFFF;
+}
+
+
+
+
+
+.face{
+	height: calc(100vh - 6.6em);
+	background: url(../img/fonn.png);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+
+
+.inface{
+	font-size: 0.6em;
+	line-height: 1em;
+
+	
+}
+
+
+
+
+
+.inface h3 {
+	font-size: 6em;
+	line-height: 1em;
+	margin-bottom: 10px;
+
+}
+
+
+
+
+.inface p {
+	font-size: 3em;
+	line-height: 1em;
+
+
+}
+
+
+
+
+.about {
+	margin: auto;
+	width: 90%;
+	padding: 50px 0;
+	font-size: 1.5em;
+}
+
+
+
+
+.about-title{
+	color: black;
+	text-align: center;
+}
+
+
+
+
+.about-title h3 {
+	line-height: 1em;
+	color: #F2C12B;
+	font-size: 1em;
+	margin: 20px 0;
+}
+
+
+
+
+.about-title p {
+	line-height: 1em;
+	font-size: 2em;
+	margin: 10px 0;
+}
+
+
+.dryg{
+	margin: 10px 0 ;
+}
+
+
+
+
+
+
+.texxt{
+	margin: auto;
+	width: 90%;
+	background: #f1f1f1;
+	color: black;
+
+}
+
+.texxt-title{
+		line-height: 1em;
+		font-size: 2em;
+}
+
+.texxt-title h3 {
+		line-height: 1em;
+		font-size: 1em;
+		color:#F2C12B ;
+		margin: 20px 0 ;
+}
+
+.texxt-title p {
+		line-height: 1em;
+		font-size: 1.3em;
+		color:black ;
+		margin: 10px 0 ;
+}
+
+.lych{
+	margin-top: 15px;
+	max-width: 380px;
+	padding-bottom: 15px;
+
+}
+
+
+.sto{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 1em;
+  width: 16px;
+  line-height: 1em;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  color: white;
+  background: #1A3E3E;
+  border-radius: 5px;
+}
+
+
+.popular{
+	margin: auto;
+	width: 90%;
+	color: black;
+}
+
+
+
+
+.store-title{
+	font-size: 2em;
+	
+}
+
+.store-title h3 {
+	color:#F2C12B ;
+	font-size: 1em;
+	line-height: 1em;
+}
+
+.store-title p {
+	line-height: 1em;
+	font-size: 1.3em;
+}
+
+
+.popularnie{
+
+}
+
+
+
+.rate{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 1em;
+  width: 16px;
+  line-height: 1em;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  color: white;
+  background: #1A3E3E;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+.blog{
+	margin: 50px 0 0 20px;
+	width: 90%;
+	color: black;
+	background: #F3F5F4;
+}
+
+
+.blog-title{
+	font-size: 2em;
+	line-height: 1em;
+}
+
+
+
+.blog-title h3 {
+		font-size: 1em;
+	color: #F2C12B;
+	line-height: 1em;
+}
+
+
+
+.blog-title p {
+	line-height: 1em;
+	font-size: 1.3em;
+}
+
+.chetr{
+	max-width: 380px;
+	padding-bottom: 15px;
+}
+
+
+
+
+
+.fatiu{
+	margin: 50px 0 0 20px;
+	max-width: 100%;
+	color: black;
+}
+
+.fatiu-title{
+	font-size: 2em;
+	line-height: 1em;
+}
+
+
+.fatiu-title h3 {
+		font-size: 1em;
+	color: #F2C12B;
+	line-height: 1em;
+}
+
+
+.fatiu-title p {
+	line-height: 1em;
+	font-size: 1.3em;
+}
+
+.del{
+	padding-bottom: 25px;
+}
+
+.fatiu-btn{	
+	padding-bottom: 30px;
+}
+
+
+.ras{
+	margin: 50px 0 40px 20px;
+	max-width: 90%;
+	color: black;
+	background:#F7F7F7 ;
+}
+
+.ras-title{
+	font-size: 1.3em;
+	line-height: 1em;
+}
+
+.ras-title h3 {
+	font-size: 1em;
+	line-height: 1em;
+	color: #F2C12B;
+}
+
+
+.ras-title p {
+	font-size: 1.6em;
+	line-height: 1em;
+}
+
+
+.vvod{
+	margin-top: 10px;
+	width: 80%;
+	border: none;
+	border-radius: 3px;
+	background:#F0EEEB ;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	margin-bottom: 10px;
+
+}
+
+
+.podp{
+	border: none;
+	background:#1A3E3E ;
+	color: white;
+	width: 60%;
+	border-radius: 3px;
+	padding-bottom: 8px;
+	padding-top: 8px;
+}
+
+
+
+
+.ras-title2{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+.pre-footer{
+	padding-top: 20px;
+	width: 100%;
+	background:#1A3E3E  ;
+}
+
+
+
+.footer{
+	line-height: 1.5em;
+	font-size: 1.3em;
+	padding-left: 5px;
+}
+
+.footer h3 {
+	line-height: 1em;
+	font-size: 1.6em;
+}
+
+.sh{
+	max-width: 230px;
+	padding-bottom: 20px;
+}
+
+.nezn{
+	padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.ipp{
+
+	width: 100%;
+	background: black;
+}
+
+.ipp-text1{
+	color: white;
+	padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
